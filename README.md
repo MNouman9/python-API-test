@@ -18,6 +18,7 @@ A `docker-compose.yml` file is included to facilitate local testing. Run the fol
 cd python-API
 docker-compose up --build -d
 ```
+You can test the application by running `http://localhost:8000/datetime`
 
 ### **AWS Deployment**  
 The application is deployed on AWS using Terraform. The infrastructure provisioning includes:  
